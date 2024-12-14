@@ -9,6 +9,7 @@ img{
     animation: animacija 5s linear infinite;
 }
 a{
+    color: red;
     text-decoration: none;
 }
 @keyframes animacija {
