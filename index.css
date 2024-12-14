@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+img{
+    width: 200px;
+    height: 200px;
+    animation: animacija 5s linear infinite;
+}
+@keyframes animacija {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
