@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+    animation: animacija 5s linear infinite;
+}
+@keyframes animacija {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+a{
+    text-decoration: none;
+}
+body{
+    color: red;
+    background-image: url(photo/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    background-color: gray;
+    color: yellow;
+}
+button:hover{
+    background-color: blue;
+    color: chocolate;
+}

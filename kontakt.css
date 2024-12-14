@@ -1,0 +1,19 @@
+body{
+    background-image: url(photo/staza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: chartreuse;
+}
+a{
+    text-decoration: none;
+    color: chartreuse;
+}
+img{
+    width: 200px;
+    height: 200px;
+    animation: animacija 5s linear infinite;
+}
+@keyframes animacija {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}

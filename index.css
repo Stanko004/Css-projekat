@@ -1,5 +1,10 @@
 body{
-    background-color: aqua;
+    background-image: url(photo/plaza3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
 }
 img{
     width: 200px;
